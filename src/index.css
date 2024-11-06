@@ -1,0 +1,76 @@
+
+
+@media (max-width: 577px) {
+    .brand-logo{
+        left: 80px !important;
+        width: 170px !important;
+    }
+}
+
+.newsForm .form-group{display:flex;}
+.newsForm .form-group .form-control{text-align:left!important;}
+.newsForm .form-group .btn{margin-top:0px!important;}
+
+
+.top-header .header-dropdown li a,.top-header .header-dropdown li a i{color:#3c3c3c!important;}
+header .main-navbar .nav-menu > li .nav-submenu li a{margin-bottom:10px;}
+
+.product-box{padding-bottom:12px;border:1px solid #ededed;}
+.addtocart_count .product-box .add-button{position:absolute;opacity:0;background:#ff4c3b!important;color:#fff!important;}
+.addtocart_count .product-box:hover .add-button{opacity:1;}
+.product-box .product-detail h6, .product-box .product-info h6, .product-wrap .product-detail h6, .product-wrap .product-info h6{padding:7px 0!important;}
+
+
+@media (max-width: 577px) {
+    .brand-logo{
+        left: 80px !important;
+        width: 170px !important;
+    }
+}
+
+
+
+/* Style for the scrollbar track */
+body::-webkit-scrollbar {
+    width: 12px; /* Slightly thicker for a more modern look */
+    background-color: transparent; /* No background color for the track */
+}
+
+/* Style for the scrollbar thumb */
+body::-webkit-scrollbar-thumb {
+    background: rgba(153, 102, 255, 0.7); /* Soft purple shade */
+    border-radius: 12px; /* Smoother, more rounded thumb */
+    border: 2px solid transparent; /* Creates a 'floating' effect */
+    transition: background 0.3s; /* Smooth transition for hover */
+}
+
+/* Hover effect for the scrollbar thumb */
+body::-webkit-scrollbar-thumb:hover {
+    background: rgba(128, 90, 213, 0.9); /* Darker purple on hover */
+}
+
+/* Active state when scrollbar is being dragged */
+body::-webkit-scrollbar-thumb:active {
+    background: rgba(64, 64, 178, 0.9); /* Deep purple during active state */
+}
+
+/* Vertical scrollbar customization */
+body::-webkit-scrollbar-thumb:vertical {
+    transition: background 0.3s; /* Smooth transition */
+    background: #0090d7; /* Light blue for vertical scrollbar */
+}
+
+/* Hover effect for vertical scrollbar */
+body::-webkit-scrollbar-thumb:vertical:hover {
+    background: #0090d7; /* Darker blue on hover */
+}
+
+/* Active state for vertical scrollbar */
+body::-webkit-scrollbar-thumb:vertical:active {
+    background: #0090d7; /* Deeper blue during active state */
+}
+
+/* Hide scrollbar thumb when not hovering over body */
+body:not(:hover)::-webkit-scrollbar-thumb {
+    background: transparent;
+}
