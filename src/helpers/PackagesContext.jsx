@@ -53,7 +53,7 @@ const PackageProvider = (props) => {
   const getPopularTestList = async () => {
     try {
       setPopularLabTestList({ data: [], loading: true });
-      const response = await axios.post(`api/popular/test/list`, {});
+      const response = await axios.get(`api/popular/test/list`, {});
       if (response?.status === 200) {
         setPopularLabTestList({
           data: response?.data?.data || [],
